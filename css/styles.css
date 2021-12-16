@@ -12,8 +12,8 @@ body{ background-color: rgba(58, 79, 95, 0.877);}
 
 .container{
     max-width: 375px;
-    min-height: 400px;
-    margin: 1em auto;
+    
+    margin: 1em 2em;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body{ background-color: rgba(58, 79, 95, 0.877);}
 }
 
 .img-card{
-    width: 30%;
+    width: 20%;
 }
 
 /*Btn*/
@@ -53,6 +53,11 @@ margin: 1em;
     font-family: 'Readex Pro', sans-serif;
     font-weight: 400;
     margin: 3em 0 0 0;
+    color: gainsboro;
+}
+.text-top{
+    font-family: 'Readex Pro', sans-serif;
+    margin:0 0 1em 0;
     color: gainsboro;
 }
 .text{

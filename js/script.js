@@ -46,7 +46,7 @@ fetch(`https://apis.scrimba.com/deckofcards/api/deck/${deckId}/draw/?count=2`)
     console.log(data)
  console.log(data.cards[0].image)
  
-  pcHand.innerHTML = `<p class="text"> Computer Score ist : ${scoreComputer}</p>
+  pcHand.innerHTML = `<p class="text-top"> Computer Score ist : ${scoreComputer}</p>
   <img class="img-card" src="${data.cards[0].image}"/> `
   
   
@@ -107,7 +107,7 @@ else if (plCard > pcCard){
     scorePlayer++
 }
 else{
-    roundStatus.textContent = `Beide haben den gleichen Wert - es ist ein Unentschieden`
+    roundStatus.textContent = `Es ist ein Unentschieden`
 
     
 }
