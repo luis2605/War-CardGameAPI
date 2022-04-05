@@ -22,6 +22,12 @@ body{ background-color: rgba(58, 79, 95, 0.877);}
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (min-width:600px){
+    .container{
+    
+    margin: 1em auto
+    }
+}
 
 .first-container, .second-container,.third-container{ text-align: center;
 }
